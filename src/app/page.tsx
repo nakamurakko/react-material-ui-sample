@@ -9,11 +9,12 @@ export default function Home(): JSX.Element {
   return (
     <AppBar
       enableColorOnDark
-      position='static'
+      position="static"
     >
       <Toolbar>
         <IconButton
-          color='inherit'
+          color="inherit"
+          edge="start"
         >
           <MenuIcon />
         </IconButton>
