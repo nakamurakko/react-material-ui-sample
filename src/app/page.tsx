@@ -9,7 +9,7 @@ export default function Home(): JSX.Element {
   return (
     <AppBar
       enableColorOnDark
-      position="static"
+      position="sticky"
     >
       <Toolbar>
         <IconButton
