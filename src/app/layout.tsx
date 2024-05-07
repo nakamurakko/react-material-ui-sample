@@ -1,9 +1,10 @@
 import type { Metadata } from 'next';
 import './globals.css';
 
+import { NextFont } from 'next/dist/compiled/@next/font';
 import { Inter } from 'next/font/google';
 
-const inter = Inter({ subsets: ['latin'] });
+const inter: NextFont = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
   title: 'react-material-ui-sample',
