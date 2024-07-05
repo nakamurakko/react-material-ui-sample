@@ -1,11 +1,10 @@
+import './App.css';
+
 import MenuIcon from '@mui/icons-material/Menu';
 import { AppBar, IconButton, Toolbar, Typography } from '@mui/material';
 
-/**
- * Home コンポーネント。
- * @returns
- */
-export default function Home(): JSX.Element {
+export default function App(): JSX.Element {
+
   return (
     <AppBar
       enableColorOnDark
@@ -24,4 +23,5 @@ export default function Home(): JSX.Element {
       </Toolbar>
     </AppBar>
   );
+
 }
