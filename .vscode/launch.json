@@ -20,7 +20,9 @@
       "webRoot": "${workspaceFolder}/src",
       "sourceMapPathOverrides": {
         "webpack:///src/*": "${webRoot}/*"
-      }
+      },
+      // Start Local Dev が準備できるまで、起動を遅らせる。
+      "preLaunchTask": "Delay startup"
     }
   ],
   "compounds": [
