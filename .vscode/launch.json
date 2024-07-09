@@ -5,8 +5,8 @@
   "version": "0.2.0",
   "configurations": [
     {
-      // "npm start" をターミナルで実行する。
-      "name": "npm start",
+      // 開発モードで App を実行する。
+      "name": "Start Local Dev",
       "type": "node-terminal",
       "request": "launch",
       "command": "npm start"
@@ -25,12 +25,12 @@
   ],
   "compounds": [
     {
-      // "npm start"、 "Launch Chrome" を実行する。
-      // "npm start" ビルド完了前に Chrome が起動するためアクセスエラーが表示されるが、
+      // "Start Local Dev"、 "Launch Chrome" を実行する。
+      // "Start Local Dev" ビルド完了前に Chrome が起動するためアクセスエラーが表示されるが、
       // ビルド完了後に Chrome が自動的にリフレッシュする。
       "name": "Debug all",
       "configurations": [
-        "npm start",
+        "Start Local Dev",
         "Launch Chrome"
       ]
     }
