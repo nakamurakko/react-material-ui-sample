@@ -50,6 +50,9 @@ export default function App(): JSX.Element {
         <MenuItem onClick={closeMenu}>
           <Link to="button-sample">Button sample</Link>
         </MenuItem>
+        <MenuItem onClick={closeMenu}>
+          <Link to="checkbox-sample">Button sample</Link>
+        </MenuItem>
       </Menu>
 
       <Outlet />
