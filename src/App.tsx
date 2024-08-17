@@ -11,11 +11,11 @@ export default function App(): JSX.Element {
   const [anchorElement, setAnchorElement] = useState<HTMLElement | null>(null);
   const menuOpened: boolean = !!anchorElement;
 
-  function onMenuClick(event: React.MouseEvent<HTMLButtonElement>): void {
+  const onMenuClick = (event: React.MouseEvent<HTMLButtonElement>): void => {
     setAnchorElement(event.currentTarget);
   }
 
-  function closeMenu(): void {
+  const closeMenu = (): void => {
     setAnchorElement(null);
   }
 
