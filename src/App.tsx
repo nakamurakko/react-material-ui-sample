@@ -51,7 +51,7 @@ export default function App(): JSX.Element {
           <Link to="button-sample">Button sample</Link>
         </MenuItem>
         <MenuItem onClick={closeMenu}>
-          <Link to="checkbox-sample">Button sample</Link>
+          <Link to="checkbox-sample">Checkbox sample</Link>
         </MenuItem>
       </Menu>
 
