@@ -15,14 +15,14 @@ export default function ButtonSample(): JSX.Element {
   /**
    * メッセージ表示ボタンクリック。
    */
-  function onMessageClick(): void {
+  function handleMessageClick(): void {
     alert('Hello');
   }
 
   /**
    * カウントアップボタンクリック。
    */
-  function onCountupClick(): void {
+  function handleCountupClick(): void {
     setClickCount(clickCount + 1);
   }
 
@@ -32,14 +32,14 @@ export default function ButtonSample(): JSX.Element {
 
       <Button
         variant="contained"
-        onClick={onMessageClick}
+        onClick={handleMessageClick}
       >
         Message
       </Button>
 
       <Button
         variant="contained"
-        onClick={onCountupClick}
+        onClick={handleCountupClick}
       >
         {clickCount}
       </Button>
